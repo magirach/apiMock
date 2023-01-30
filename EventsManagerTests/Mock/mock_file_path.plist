@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MGRouterAuthorizationInput</key>
+	<dict>
+		<key>pick</key>
+		<string>success_default</string>
+		<key>success</key>
+		<dict>
+			<key>default</key>
+			<string>authentication</string>
+		</dict>
+		<key>failure</key>
+		<dict>
+			<key>default</key>
+			<string>fail_authentication</string>
+		</dict>
+	</dict>
+	<key>MGRouterSearchEventsInput</key>
+	<dict>
+		<key>pick</key>
+		<string>success_default</string>
+		<key>success</key>
+		<dict>
+			<key>default</key>
+			<string>events</string>
+		</dict>
+		<key>failure</key>
+		<dict>
+			<key>default</key>
+			<string>fail_events</string>
+		</dict>
+	</dict>
+	<key>MGRouterJoinEventInput</key>
+	<dict>
+		<key>pick</key>
+		<string>success_default</string>
+		<key>success</key>
+		<dict>
+			<key>default</key>
+			<string>join</string>
+		</dict>
+		<key>failure</key>
+		<dict>
+			<key>default</key>
+			<string>fail_join</string>
+		</dict>
+	</dict>
+	<key>MGRouterLeaveEventInput</key>
+	<dict>
+		<key>pick</key>
+		<string>success_default</string>
+		<key>success</key>
+		<dict>
+			<key>default</key>
+			<string>leave</string>
+		</dict>
+		<key>failure</key>
+		<dict>
+			<key>default</key>
+			<string>fail_leave</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
